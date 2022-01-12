@@ -1,0 +1,32 @@
+.main_heading{
+
+    /* text-align: center; */
+    font-size: 100px;
+    margin-top:50px;
+    margin-left:300px;
+    width: 800px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.create_link{
+    border:1px solid black;
+    text-decoration: none;
+    position: relative;
+    top:50px;
+    /* margin-top:50px; */
+    margin-left:610px;
+    padding :15px 30px 15px 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    color:black;
+    /* height:300px;
+    width:150px; */
+}
+
+.create_link:hover{
+    background-color:rgb(251, 242, 203);
+    border:2px solid black;
+    font-weight: bold;
+    box-shadow:10px 10px 10px darkgrey;
+}

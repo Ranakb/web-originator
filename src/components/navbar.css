@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+.navbar{
+    background-color:cornsilk;
+    height:50px;
+    /* border: 1px solid black; */
+    
+    /* padding-top:10px; */
+}
+
+.title{
+    text-shadow: 0 0 2px black, 0 0 2px black;
+    /* padding-bottom:8px; */
+    margin-left: 50px;
+    font-size: 29px;
+    position: relative;
+    top:3px;
+}
+
+.navbarLinks {
+    position: relative;
+    top: -30px;
+    
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+ 
+}
+.Home:hover{
+    text-shadow: 0 0 1px black, 0 0 1px black;
+}
+
+.Home{
+    color: black;
+    margin-right: 60px;
+    text-decoration: none;
+    
+    /* cursor: pointer; */
+}
+
