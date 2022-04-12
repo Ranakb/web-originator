@@ -1,8 +1,15 @@
+.home_main{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
 .main_heading{
 
     /* text-align: center; */
     font-size: 100px;
-    margin-top:50px;
+    margin-top:100px;
     margin-left:300px;
     width: 800px;
     /* border: 1px solid black; */
@@ -12,21 +19,142 @@
 .create_link{
     border:1px solid black;
     text-decoration: none;
-    position: relative;
-    top:50px;
-    /* margin-top:50px; */
+    position: absolute;
+    top:400px;
+    
+    margin-top:50px;
     margin-left:610px;
     padding :15px 30px 15px 30px;
     font-size: 30px;
     border-radius: 10px;
     color:black;
-    /* height:300px;
-    width:150px; */
+   
 }
 
 .create_link:hover{
-    background-color:rgb(251, 242, 203);
+    background-color:#494949;
+    color:white;
     border:2px solid black;
     font-weight: bold;
     box-shadow:10px 10px 10px darkgrey;
+}
+
+
+/* JSON file grid */
+
+
+.grid{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    background-color: #888282;
+    height: 400px;
+    /* border-radius: 50px; */
+  }
+  
+  .grid-col1 {
+    color:White;
+    padding-top: 110px; 
+    
+    margin-left: 100px; 
+    text-align: center;
+    height: 500px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    /* margin-bottom: 30px; */
+    
+  }
+  .grid-col2 .grid-img{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 400px;
+    height: 300px;
+  }
+  
+
+/* ...................................................................... */
+
+.home_h2{
+    border-top: 1px solid rgb(207, 205, 205);
+    margin-top: 259px;
+    margin-left: 250px;
+    margin-right: 20px;
+    max-width: 900px;
+    text-align: center;
+    font-size: 52px;
+}
+
+
+/* Home Grid */
+
+.home_grid{
+margin-top: 50px;
+display:grid;
+grid-template-columns: 420px 420px 420px;
+}
+
+.home_grid_column1{
+    text-align:right;
+    margin-left: 100px;
+}
+
+.home_grid_column2{
+text-align:center;
+margin-left: 50px;
+}
+
+.home_grid_column3{
+text-align:left;
+margin-left: 30px;
+}
+
+
+
+/* How to create website */
+
+.how_to{
+    margin-top: 50px;
+}
+.how_to_h2{
+    max-width: 900px;
+    margin-left: 250px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.how_to_grid{
+    display:grid;
+    max-width: 920px;
+    margin-left: 250px;
+    grid-template-columns: 300px 300px 300px;
+   
+}
+.how_to_grid_column1{
+    text-align: center;
+}
+.how_column1_div1, .how_column2_div1{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+
+}
+.how_column3_div1{
+    padding:10px;
+    border-bottom: 1px solid grey;
+}
+.how_column1_div2, .how_column2_div2 {
+    padding: 10px;
+    border-right: 1px solid grey;
+}
+.how_column3_div2{
+    padding: 10px;
+}
+
+.how_to_grid_column2{
+    text-align: center;
+}
+
+.how_to_grid_column3{
+    text-align: center;
 }

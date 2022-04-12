@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: wheat; */
+}
+@keyframes opacity {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.wog{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    font-size: 100px;
+    animation-name: opacity;
+    animation-duration: 3s;
+}
+.web{
+    position: absolute;
+    top: 285px;
+    left: 100px;
+    font-size: 29px;
+    color: rgb(238, 184, 84);
+    animation-name: opacity;
+    animation-duration: 5s;
+}
+
+.create{
+    font-size: 40px;
+    /* color: rgb(238, 184, 84); */
+    margin-left: 45px;
+    /* margin-right: 100px; */
+    /* border: 1px solid red; */
+    font-weight: bolder;
+}
+.main{
+    border: 2px solid rgb(2, 2, 2);
+    position: absolute;
+    left: 580px;
+    padding: 10px;
+    max-width: 530px;
+    top: 75px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey;
+    height: 520px;
+}
+.all_input{
+    /* border: 1px solid red; */
+    padding: 10px; 
+}
+.name{
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 0px;
+    /* margin-left: -60px; */
+    margin-top: -25px;
+    width:500px ;
+    
+}
+.last_name_input{
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    height: 35px;
+    border-radius: 12px;
+    width: 240px;
+}
+.first_name_input{
+    padding-left: 5px;
+    height: 35px;
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 240px;
+}
+.email_div input{
+   padding-left: 5px;
+   height: 35px;
+   border-radius: 12px;
+   width: 490px;
+   /* margin-left: -60px; */
+   /* border: 1px solid red; */
+   margin-top: 10px;
+}
+.password_div{
+    height: 35px;
+   border-radius: 12px;
+   width: 240px;
+   padding-left: 5px;
+   margin-top: 20px;
+   /* margin-left: -60px; */
+
+   
+}
+.password_div_con{
+    height: 35px;
+    border-radius: 12px;
+    width: 240px;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pass_div{
+    /* border: 1px solid red; */
+    width:500px ;
+}
+.dob_div input{
+    margin-top: 5px;
+    width: 240px;
+    /* margin-left: -60px; */
+    border-radius: 10px;
+    height: 35px;
+    padding-left: 15px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+.dob_div h6{
+    font-size: 15px;
+    /* margin-top: 5px; */
+    /* margin-left: -5px; */
+    margin-top: 10px;
+}
+.gender_div h6{
+margin-top: 10px;
+font-size: 15px;
+}
+
+.gender_div> input[type="radio"]{
+    /* margin-right: -100px; */
+    
+    /* height: 1.5em; */
+    margin-left: 70px;
+}
+/* .gender_div label{
+    margin-right: 20px;
+    margin-left: -60px;
+    position: relative;
+    top:-3px
+   
+} */
+.gender_heading{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.submit{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    /* position: relative;
+    top: 20px;
+    left: 140px; */
+    font-size: 18px;
+    /* margin-top: 400px; */
+    margin-left: 190px;
+    position: relative;
+    top: 18px;
+    background-color: rgb(247, 203, 123);
+    text-decoration: none;
+    color: black;
+}
+/* @keyframes Move {
+    from { left: 280px;}
+    to {left: 285px;}
+} */
+.submit:hover{
+    font-weight: bolder;
+    background-color: rgb(77, 73, 73);
+    color: white;
+    box-shadow: 7px 7px 7px 4px grey;
+    /* animation-name: Move;
+    animation-duration: 5s; */
+
+}
+.policies{
+    word-wrap: break-word;
+    font-size:x-small;
+    margin-top: 10px;
+
+}
+.Already{
+    margin-left: 190px;
+    margin-top: 35px;
+    color: blue;
+    font-weight: bolder;
+}
+.main h5{
+    margin-left: 80px;
+    font-size: 25px;
+}
+.easy{
+    margin-left: 200px;
+    /* font-size: 17px; */
+    margin-bottom: 20px;
+    font-size: 20px;
+    /* font-weight: lighter;s */
+}

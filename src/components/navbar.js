@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Support from './Support'
+import {BiUserCircle} from 'react-icons/bi'
 const NavBar = () => {
     return (
         <>
@@ -11,10 +12,10 @@ const NavBar = () => {
             <Link to="/" className="Home">Home</Link>
             <Link to="/webstore" className="Home">Web Store</Link>
             <Link to="/Support" className="Home">Support</Link>
-            <Link to="Login" className="Home">Login</Link>
+            <Link to="/dashboard" className="Home"><BiUserCircle  className='style_icon'/></Link>
            
             </div>
-            
+    
             </div>
            
         </>

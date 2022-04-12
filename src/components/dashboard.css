@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_dashboard{
+    /* margin-top: -20px; */
+    padding-top: 42px; 
+    border-right:3px solid black;
+    width:240px ;
+    height: 100vh;
+    background-color: #494949;
+}
+.profile_img{
+    border: 3px solid white;
+    /* padding: 20px; */
+    width: 90px;
+    height: 90px;
+    /* background-color: white; */
+    /* margin-top: 41px; */
+    position: relative;
+    bottom: 100px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+.dashboard_link{
+  
+  position: relative;
+  right: 9px;
+    color:white;
+    text-decoration: none;
+     padding: 10px 100px 10px 100px;
+    
+}
+
+.dashboard_link1{
+    position: relative;
+    right:10px;
+  color:white;
+  text-decoration: none;
+   padding: 10px 90px 10px 100px;
+}
+.dashboard_link2{
+  position: relative;
+  right:2px;
+  color:white;
+  text-decoration: none;
+   padding: 10px 105px 10px 100px
+}
+.dashboard_link1:hover{
+  background-color: grey;
+  border-radius: 5px;
+  /* padding: 10px 90px 10px 100px; */
+  border-bottom: 2px solid white;
+}
+.dashboard_link2:hover{
+  background-color: grey;
+  border-radius: 5px;
+  /* padding: 10px 105px 10px 100px; */
+  border-bottom: 2px solid white;
+}
+.options{
+  margin-top: 131px;
+}
+.options ul li{
+  /* text-decoration: none; */
+  font-size: 22px;
+  list-style-type:none;
+margin-left: -25px;
+  margin-top: 35px;
+
+}
+.dashboard_link:hover {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 10px 100px 10px 100px;
+  border-bottom: 2px solid white;
+}
+
+
+.DsBimg{
+  position: absolute;
+  /* bottom:10px; */
+  top: 100px;
+  left: 60px;
+  /* bottom: 30px; */
+  height:90px;
+  width:90px;
+border-radius: 50%;
+}
+[type=file] {
+  position: absolute;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.selector,
+[type=file] + label {
+border: 1px solid #CCC;
+border-radius: 3px;
+text-align: left;
+padding: 5px;
+width: 150px;
+margin: 0;
+left: 0;
+position: relative;
+}
+[type=file] + label {
+text-align: center;
+left: -4.20em;
+
+top: 7em;
+/* Decorative */
+background: #494949;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+/* [type=file] + label:hover {
+background: #3399ff;
+} */
